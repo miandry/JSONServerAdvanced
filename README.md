@@ -25,6 +25,7 @@ Use GET method to get items in file <br/>
 <b>URL EXAMPLE 1 (search by id)</b> http://localhost:5000/api/products?filter=[?id==%27143%27] <br/>
 <b>URL EXAMPLE 2 (pagination) </b> http://localhost:5000/api/products?filter=[0:1] 
 <br/><a href="https://jmespath.org/tutorial.html"> See more JMESPATH </a>
+
 ```
 [
 	{
@@ -40,21 +41,22 @@ Use GET method to get items in file <br/>
 ]
 ```
 ## Add Item to json server file
+
 <b>SOURCE PATH</b> /api/products.json <br/>
 <b>URL </b> http://localhost:5000/api/products
-Use POST method to add item in file
+Use POST method to add item in file , <b>Field id is required</b>
 <br/>
 <img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%208.48.21%20PM_0.png" width="550px"/>
 <br/>
 ## Update Item to json server file
-Use PUT method to add item in file
+Use PUT method to add item in file <b>Field id is required</b>
 <b>SOURCE PATH</b> /api/products.json <br/>
 <b>URL </b> http://localhost:5000/api/products 
 <br/>
 <img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%209.45.43%20PM.png" width="550px" />
 <br/>
 ## Delete Item to json server file
-Use DELETE method to add item in file
+Use DELETE method to add item in file <b>Field id is required</b>
 <b>SOURCE PATH</b> /api/products.json <br/>
 <b>URL </b> http://localhost:5000/api/products
 
