@@ -19,8 +19,7 @@ json format
 } 
 <br/>
 <img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%209.24.08%20AM.png" style="max-width:100%" width="550px"/>
-## Add Item to json server file
-Use POST method to add item in file
+## Get items to json server file
 <b>SOURCE PATH</b> /api/products.json <br/>
 <b>URL </b> http://localhost:5000/api/products
 ```
@@ -37,6 +36,22 @@ Use POST method to add item in file
 	}
 ]
 ```
+## Add Item to json server file
+<b>SOURCE PATH</b> /api/products.json <br/>
+<b>URL </b> http://localhost:5000/api/products
+Use POST method to add item in file
+<br/>
 <img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%208.48.21%20PM_0.png" width="550px"/>
-
+<br/>
+## Update Item to json server file
+Use PUT method to add item in file
+<b>SOURCE PATH</b> /api/products.json <br/>
+<b>URL </b> http://localhost:5000/api/products 
+<br/>
+<img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%209.45.43%20PM.png" width="550px" />
+<br/>
+## Delete Item to json server file
+Use DELETE method to add item in file
+<b>SOURCE PATH</b> /api/products.json <br/>
+<b>URL </b> http://localhost:5000/api/products
 
