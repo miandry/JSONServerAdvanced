@@ -9,7 +9,10 @@ This is json server advanced is similar as JSON-SERVER .
 
 ## How to install 
 ```
-git clone 
+git clone https://github.com/miandry/JSONServerAdvanced.git
+cd JSONServerAdvanced 
+npm install
+npm start  
 
 ```
 
