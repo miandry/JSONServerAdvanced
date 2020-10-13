@@ -7,6 +7,12 @@ This is json server advanced is similar as JSON-SERVER .
 
 * Create (POST) , udpate(PUT) , delete (DELETE) content in JSON server file<br/>
 
+## How to install 
+```
+git clone 
+
+```
+
 ## Generate a new json server
 
 Use method POST request <br/>
