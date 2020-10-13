@@ -18,6 +18,9 @@ npm install
 npm start  
 
 ```
+## See the server files list 
+
+URL  http://localhost:5000/router
 
 ## Generate a new json server
 
