@@ -20,8 +20,11 @@ json format
 <br/>
 <img src="http://miandrilala.com/sites/drupalmada/files/2020-10/Screen%20Shot%202020-10-13%20at%209.24.08%20AM.png" style="max-width:100%" width="550px"/>
 ## Get items to json server file
+Use GET method to get items in file <br/>
 <b>SOURCE PATH</b> /api/products.json <br/>
-<b>URL </b> http://localhost:5000/api/products
+<b>URL EXAMPLE 1 (search by id)</b> http://localhost:5000/api/products?filter=[?id==%27143%27] <br/>
+<b>URL EXAMPLE 2 (pagination) </b> http://localhost:5000/api/products?filter=[0:1] 
+<br/><a href="https://jmespath.org/tutorial.html"> See more JMESPATH </a>
 ```
 [
 	{
