@@ -1,7 +1,11 @@
 # JSON Server Advanced
-This is json server similar as JSON-SERVER
+This is json server advanced is similar as JSON-SERVER . 
+* It is support https://jmespath.org/ to  get data using paramater [YOUR-LINK]?filter=[JMESPATH].
+<br/>Example to get item : http://localhost:5000/api/products?filter=[?number==`102`].
+* Multiple json files server
+* Create (POST) , udpate(PUT) , delete (DELETE) content in JSON server file
 
-# Create a new json file
+# Create a new json server
 
 Use method POST request <br/>
 EXAMPLE<br/>
