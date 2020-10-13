@@ -1,1 +1,6 @@
-[]
+[
+    {
+    "label":"products",
+    "url":"/api/products"
+    }
+]
